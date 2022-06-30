@@ -13,7 +13,7 @@ export function App() {
         {message: 'message2'},
         {message: 'message3'}
     ])
-   // let [title, setTitle] = useState('')
+    let [title, setTitle] = useState('')
 
     const addMessage = (title: string) => {
         let newMessage = {message: title};
